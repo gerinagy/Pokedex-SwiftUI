@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1346259E27F4DDC100DADC3D /* PokemonSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1346259D27F4DDC100DADC3D /* PokemonSelected.swift */; };
+		134625A027F4EEEE00DADC3D /* PokemonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1346259F27F4EEEE00DADC3D /* PokemonImage.swift */; };
 		13986E1D27F3A72D0000488E /* PokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13986E1C27F3A72D0000488E /* PokedexApp.swift */; };
 		13986E1F27F3A72D0000488E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13986E1E27F3A72D0000488E /* ContentView.swift */; };
 		13986E2127F3A7300000488E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13986E2027F3A7300000488E /* Assets.xcassets */; };
 		13986E2427F3A7300000488E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13986E2327F3A7300000488E /* Preview Assets.xcassets */; };
+		13986E2D27F3AA0A0000488E /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13986E2C27F3AA0A0000488E /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1346259D27F4DDC100DADC3D /* PokemonSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSelected.swift; sourceTree = "<group>"; };
+		1346259F27F4EEEE00DADC3D /* PokemonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonImage.swift; sourceTree = "<group>"; };
 		13986E1927F3A72D0000488E /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13986E1C27F3A72D0000488E /* PokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexApp.swift; sourceTree = "<group>"; };
 		13986E1E27F3A72D0000488E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13986E2027F3A7300000488E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13986E2327F3A7300000488E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13986E2C27F3AA0A0000488E /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				13986E1C27F3A72D0000488E /* PokedexApp.swift */,
-				13986E1E27F3A72D0000488E /* ContentView.swift */,
+				13986E2A27F3A9C70000488E /* Views */,
+				13986E2B27F3A9EA0000488E /* Api */,
 				13986E2027F3A7300000488E /* Assets.xcassets */,
 				13986E2227F3A7300000488E /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				13986E2327F3A7300000488E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13986E2A27F3A9C70000488E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13986E1E27F3A72D0000488E /* ContentView.swift */,
+				1346259F27F4EEEE00DADC3D /* PokemonImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13986E2B27F3A9EA0000488E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				13986E2C27F3AA0A0000488E /* Pokemon.swift */,
+				1346259D27F4DDC100DADC3D /* PokemonSelected.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13986E1F27F3A72D0000488E /* ContentView.swift in Sources */,
+				134625A027F4EEEE00DADC3D /* PokemonImage.swift in Sources */,
 				13986E1D27F3A72D0000488E /* PokedexApp.swift in Sources */,
+				1346259E27F4DDC100DADC3D /* PokemonSelected.swift in Sources */,
+				13986E2D27F3AA0A0000488E /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
